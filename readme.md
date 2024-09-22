@@ -18,16 +18,16 @@
   selection.
 - Report results for simple and multiple linear regression.
 
-## Q2. Perform the regression analysis using Fish dataset (50 points).
+## Q2. Perform the regression analysis using Fish dataset (50 points)
 
-### Task 1: Linear regression (25 points).
+### Task 1: Linear regression (25 points)
 
 - Fit a predictive linear regression model to estimate weight of the fish from its length, height,
   and width? (the data source fish.csv is provided).
 - Report the coefficients values by using the standard Least Square Estimates.
 - What is the standard error of the estimated coefficients, R-squared term.
 
-### Task 2: Ridge and Lasso Regression (25 points).
+### Task 2: Ridge and Lasso Regression (25 points)
 
 - Fit the Ridge and Lasso Regression Models
 - Report the coefficients for Ridge
@@ -36,5 +36,11 @@
 
 Activate Virtual Environment:
 
-- MacOS`source .venv/bin/activate`
-- Windows `.venv/Scripts/activate`
+- MacOS/Linux
+  - `python -m venv .venv`
+  - `source .venv/bin/activate`
+  - `pip install -r requirements.txt`
+- Windows
+  - `python -m venv .venv`
+  - `.venv/Scripts/activate`
+  - `pip install -r requirements.txt`
